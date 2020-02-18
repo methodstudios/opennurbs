@@ -431,7 +431,7 @@
 //
 #define ON_CLANG_CONSTRUCTOR_BUG_INIT(ctor) = ctor()
 #else
-#define ON_CLANG_CONSTRUCTOR_BUG_INIT(ctor)
+#define ON_CLANG_CONSTRUCTOR_BUG_INIT(ctor) = ctor()
 #endif
 
 /*
